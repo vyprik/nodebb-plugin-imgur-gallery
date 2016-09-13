@@ -1,0 +1,43 @@
+{
+  "name": "nodebb-plugin-imgur-gallery",
+  "version": "0.0.1",
+  "nbbpm": {
+    "compatibility": "^1.1.0"
+  },
+  "description": "A plugin that create gallery of posted via imgur images.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vyprik/nodebb-plugin-imgur-gallery.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodebb",
+    "plugin",
+    "imgur",
+    "gallery",
+    "thumbnails"
+  ],
+  "author": {
+    "name": "Nick Vyprik",
+    "email": "vyprik@gmail.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    // "request": "^2.48.0",
+    // "winston": "~0.8.3"
+  },
+  "bugs": {
+    "url": "https://github.com/vyprik/nodebb-plugin-imgur-gallery/issues"
+  },
+  "homepage": "https://github.com/vyprik/nodebb-plugin-imgur-gallery",
+  "maintainers": [
+    {
+      "name": "vyprik",
+      "email": "vyprik@gmail.com"
+    }
+  ],
+  "directories": {},
+}

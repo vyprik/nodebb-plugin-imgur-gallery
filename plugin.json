@@ -1,0 +1,29 @@
+{
+    "id": "nodebb-plugin-imgur-gallery",
+    "name": "Imgur Gallery Plugin",
+    "description": "A plugin that create gallery of posted via imgur images.",
+    "url": "https://github.com/vyprik/nodebb-plugin-imgur-gallery",
+    "library": "./index.js",
+    "staticDirs": {
+        // "imgur": "public"
+        // "images": "lib/colorpicker/images"
+    },
+    "hooks": [
+        { "hook": "filter:parse.post", "method": "parse" },
+        // { "hook": "filter:parse.signature", "method": "parse" },
+        { "hook": "filter:parse.raw", "method": "parse" }
+
+        // { "hook": "filter:post.save", "method": "filter" },
+        // { "hook": "action:post.save", "method": "emailme" }
+
+    ],
+    "css": [
+        // "css/style.css",
+        // "lib/fancybox/css/fancybox.css"
+    ],
+    "scripts": [
+        "./button.js",
+        // "lib/fancybox/js/fancybox.js"
+    ]
+    // "templates": "./public/templates"
+}
