@@ -11,17 +11,8 @@ A plugin that create gallery of posted via imgur images.
 ...
 
 ## Usage
-!(alt)[url][param] - 
+!(alt)[url][param] - s (small square 90x90) || b (big square 160x160) || t (small thumbnail 160x160 - keeps proportions) || m (medium thumbnal 320x320 - keep prop-s) || l (large thumbnail 640x640 - kp) || h (huge thumbnail 1024x1024 - kp)
 
 
 ![](https://i.imgur.com/4eK0RLd.png)
 
-
-Thumbnail Suffix | Thumbnail Name | Thumbnail Size | Keeps Image Proportions |
-- | - | - | - |
-s | Small Square | 90x90 | No |
-b | Big Square | 160x160 | No |
-t | Small Thumbnail | 160x160 | Yes |
-m | Medium Thumbnail | 320x320 | Yes |
-l | Large Thumbnail | 640x640 | Yes |
-h | Huge Thumbnail | 1024x1024 | Yes |
